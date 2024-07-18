@@ -84,6 +84,7 @@ turtle.done()
 
 
 
+
 #### 5. Draw a Hexagon
 
 ```py
@@ -97,6 +98,7 @@ for i in range(6):
 
 turtle.done()
 ```
+![image](https://github.com/user-attachments/assets/c7962271-6c76-4cd5-beb4-6deb7df622fe)
 
 
 
@@ -123,6 +125,11 @@ for i in range(36):
 turtle.done()
 ```
 
+![image](https://github.com/user-attachments/assets/c71a39bc-35df-42c5-be32-1433d1c652ce)
+
+
+
+
 
 
 #### 7. Draw a Coloured Spiral
@@ -146,6 +153,7 @@ for x in range(360):
 
 turtle.done()
 ```
+![image](https://github.com/user-attachments/assets/de92a63c-0316-492e-ad1b-c290c0405115)
 
 
 
@@ -182,3 +190,4 @@ draw_tree(100, t)
 
 turtle.done()
 ```
+![image](https://github.com/user-attachments/assets/61f55e54-0d96-4c57-8bce-77d0185b1527)
