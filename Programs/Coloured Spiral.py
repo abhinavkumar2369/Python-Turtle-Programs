@@ -1,7 +1,6 @@
 import turtle
 
 screen = turtle.Screen()
-screen.bgcolor("black")
 
 colors = ["red", "purple", "blue", "green", "yellow", "orange"]
 my_turtle = turtle.Turtle()

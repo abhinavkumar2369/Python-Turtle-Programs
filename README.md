@@ -7,14 +7,15 @@
 import turtle
 
 t = turtle.Turtle()
+t.color("red")
 
 for i in range(4):
-    t.color("red")
     t.forward(100)
     t.right(90)
 
 turtle.done()
 ```
+
 ![ square ](https://github.com/user-attachments/assets/390c93d2-01ca-4e26-9bd4-23066c36a883)
 
 
@@ -32,6 +33,7 @@ t.circle(50)
 
 turtle.done()
 ```
+
 ![ circle ](https://github.com/user-attachments/assets/412f20b2-e2d3-4955-b9ef-1dc5e85c0dda)
 
 
@@ -55,6 +57,7 @@ for i in range(4):
 
 turtle.done()
 ```
+
 ![ star ](https://github.com/user-attachments/assets/0eba4c4b-9b90-4323-8620-f9f2be47be46)
 
 
@@ -77,6 +80,7 @@ for i in range(60):
 
 turtle.done()
 ```
+
 ![ spiral ](https://github.com/user-attachments/assets/36b23aa0-6186-4675-bf4e-b10cfe1d2b7e)
 
 
@@ -98,6 +102,7 @@ for i in range(6):
 
 turtle.done()
 ```
+
 ![image](https://github.com/user-attachments/assets/c7962271-6c76-4cd5-beb4-6deb7df622fe)
 
 
@@ -109,7 +114,7 @@ turtle.done()
 
 
 
-#### 6. Draw the Spiral of sqaures.
+#### 6. Draw the Spiral of squares.
 
 ```py
 import turtle
@@ -138,7 +143,6 @@ turtle.done()
 import turtle
 
 screen = turtle.Screen()
-screen.bgcolor("black")
 
 colors = ["red", "purple", "blue", "green", "yellow", "orange"]
 my_turtle = turtle.Turtle()
@@ -153,6 +157,7 @@ for x in range(360):
 
 turtle.done()
 ```
+
 ![image](https://github.com/user-attachments/assets/de92a63c-0316-492e-ad1b-c290c0405115)
 
 
@@ -190,4 +195,5 @@ draw_tree(100, t)
 
 turtle.done()
 ```
+
 ![image](https://github.com/user-attachments/assets/61f55e54-0d96-4c57-8bce-77d0185b1527)
