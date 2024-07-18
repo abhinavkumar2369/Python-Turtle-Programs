@@ -1,6 +1,7 @@
 ## Programs 🌟
 
-1. Draw a Square
+
+#### 1. Draw a Square
 
 ```py
 import turtle
@@ -18,7 +19,10 @@ turtle.done()
 
 
 
-2. Draw a Circle
+
+
+#### 2. Draw a Circle
+
 ```py
 import turtle
 
@@ -34,7 +38,8 @@ turtle.done()
 
 
 
-3. Draw a Star
+#### 3. Draw a Star
+
 ```py
 import turtle
 
@@ -54,7 +59,11 @@ turtle.done()
 
 
 
-4. Draw a spiral
+
+
+
+#### 4. Draw a spiral
+
 ```py
 import turtle
 
@@ -69,3 +78,107 @@ for i in range(60):
 turtle.done()
 ```
 ![ spiral ](https://github.com/user-attachments/assets/36b23aa0-6186-4675-bf4e-b10cfe1d2b7e)
+
+
+
+
+
+
+#### 5. Draw a Hexagon
+
+```py
+import turtle
+
+t = turtle.Turtle()
+
+for i in range(6):
+    t.forward(100)
+    t.right(60)
+
+turtle.done()
+```
+
+
+
+
+
+
+
+
+
+
+#### 6. Draw the Spiral of sqaures.
+
+```py
+import turtle
+
+t = turtle.Turtle()
+
+for i in range(36):
+    for j in range(4):
+        t.forward(100)
+        t.right(90)
+    t.right(10)
+
+turtle.done()
+```
+
+
+
+#### 7. Draw a Coloured Spiral
+
+```py
+import turtle
+
+screen = turtle.Screen()
+screen.bgcolor("black")
+
+colors = ["red", "purple", "blue", "green", "yellow", "orange"]
+my_turtle = turtle.Turtle()
+
+my_turtle.speed(10)
+
+for x in range(360):
+    my_turtle.pencolor(colors[x % 6])
+    my_turtle.width(x / 100 + 1)
+    my_turtle.forward(x)
+    my_turtle.left(59)
+
+turtle.done()
+```
+
+
+
+
+
+
+#### 8. Draw a Fractal Tree.
+
+```py
+import turtle
+
+def draw_tree(branch_len, t):
+    angle = 30
+    sf = 0.8
+    if branch_len < 3:
+        return
+    else:
+        t.forward(branch_len)
+        t.left(angle)
+        draw_tree(branch_len * sf, t)
+        t.right(angle * 2)
+        draw_tree(branch_len * sf, t)
+        t.left(angle)
+        t.backward(branch_len)
+
+screen = turtle.Screen()
+t = turtle.Turtle()
+t.left(90)
+t.up()
+t.backward(200)
+t.down()
+t.color("green")
+draw_tree(100, t)
+
+turtle.done()
+```
